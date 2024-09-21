@@ -24,15 +24,45 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+This project is a backend application developed as part of a skill test for the PT EIGEN TRIMATHEMA company. It utilizes the NestJS framework to provide a robust and scalable solution for managing library operations.
+
+## Features
+
+- User authentication and authorization
+- Book borrowing and returning functionality
+- Swagger API documentation for easy testing
+- Database integration for persistent storage
 
 ## Installation
 
-```bash
-$ npm install
-```
+### Prerequisites
 
-## Running the app
+- Node.js (version >= 12.x)
+- npm (Node package manager)
+- A local database (e.g., PostgreSQL, MySQL)
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   $ git clone <repository_url>
+   ```
+
+2. **Navigate to the project directory:**
+   ```bash
+   $ cd <project_directory>
+   ```
+
+3. **Install dependencies:**
+   ```bash
+   $ npm install
+   ```
+
+4. **Create a database** named `libraryManagement` in your local environment.
+
+## Running the App
+
+To start the application, use the following commands:
 
 ```bash
 # development
@@ -41,22 +71,13 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
-## Test
+## API Documentation
 
-```bash
-# unit tests
-$ npm run test
+After running the project, you can access the Swagger API documentation at:
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
+[http://localhost:3000/api](http://localhost:3000/api)
 
 ## Support
 
