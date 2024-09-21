@@ -39,7 +39,7 @@ This project is a backend application developed as part of a skill test for the 
 
 - Node.js (version >= 12.x)
 - npm (Node package manager)
-- A local database (e.g., PostgreSQL, MySQL)
+- A local database (mongoDB)
 
 ### Steps
 
@@ -58,7 +58,7 @@ This project is a backend application developed as part of a skill test for the 
    $ npm install
    ```
 
-4. **Create a database** named `libraryManagement` in your local environment.
+4. **Create a database mongoDB** named `libraryManagement` in your local environment.
 
 ## Running the App
 
